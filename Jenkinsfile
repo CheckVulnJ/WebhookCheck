@@ -6,6 +6,7 @@ pipeline {
                 sh '''
                   env
                   ls -l
+                  ls -la
                   '''
             }
 }
